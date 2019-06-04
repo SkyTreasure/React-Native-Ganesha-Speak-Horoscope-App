@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ganesha Horoscope</string>
+    <string name="default_notification_channel_id">ganeshahoroscope</string>
+    <string name="title_activity_share">Ganesha Horoscope</string>
+        <string name="facebook_app_id">2353271314900825</string>
+</resources>

@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'LeadGenCustomer' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LeadGenCustomer  
+ 
+ 
+  pod 'FBAudienceNetwork', '~> 5.1.0'
+  pod 'Firebase/Core', '~> 5.15.0'
+  pod 'Firebase/Messaging', '~> 5.15.0' 
+
+  target 'LeadGenCustomer-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing 
+
+
+    pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+
+  end
+
+  target 'LeadGenCustomerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'LeadGenCustomer-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LeadGenCustomer-tvOS
+
+    # Pods for testing
+ 
+
+end
